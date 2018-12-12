@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-family: Avenir;
+    font-size: 24px;
+}
+
+#word {
+    text-align: center;
+    font-size: 24px;
+    font-family: Avenir;
+}
+
+#graveyard {
+    font-size: 18px;
+    font-family: Avenir;
+}
+body {
+    font-family: Avenir;
+}
+
+#winOrLose {
+    font-size: 36px;
+    color: goldenrod;
+}

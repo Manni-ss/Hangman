@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+<h1>HANGMANNi</h1>
+<br>
+<div id="beginning">Please select your category. Then click Play!</div>
+<div id="cat">Select Category</div>
+<select type="button" class="btn btn-secondary" id="categories">
+    <option value="1">Countries</option>
+    <option value="2">Animals</option>
+    <option value="3">Rando</option>
+</select>
+<div id="word"></div>
+<div id="guesses"></div>
+<br>
+<button type="button" class="btn btn-success" id="start" align="center" onclick="startGame()">Play!</button>
+<br>
+
+<div id="buttons" align="center"></div>
+<br>
+<div id="graveyard"></div>
+<br>
+<div id="winOrLose"></div>
+<img id="image">
+<br>
+<div id="note"></div>
+</body>
+</html>
